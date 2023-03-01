@@ -37,6 +37,13 @@ img{
 
 }
 
+.bottom_cont_debug{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+
 .col_top_content_debug{
     
     border: 1px dotted black;
@@ -67,6 +74,10 @@ main{
 
 .sidebar{
     width: 60px;
+}
+
+.content{
+    width: 100%;
 }
 
 
