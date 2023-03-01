@@ -16,15 +16,31 @@ img{
 
 /* #region debug */
 .vertical_debug{
-    width: 60px;
-    height: calc(100vh - 60px);
+    
+    height: 100%;
     border: 1px dotted black;
     background-color: red;
 
 }
 
+.content_debug{
+    background-color: blue;
+    height: calc(100vh - 60px);
+    width: 100%;
 
+}
 
+.top_cont_debug{
+    background-color: chartreuse;
+    height: 150px;
+    width: 100%;
+
+}
+
+.col_top_content_debug{
+    
+    border: 1px dotted black;
+}
 
 /* #endregion debug */
 
@@ -34,6 +50,9 @@ img{
     height: 60px;
 }
 
+nav{
+    width: 100vw;
+}
 
 /* #endregion navbar */
 
@@ -41,6 +60,26 @@ img{
 
 main{
     height: calc(100vh - 60px);
+    width: 100vw;
 }
+
+/* #region content */
+
+.sidebar{
+    width: 60px;
+}
+
+
+
+/* #endregion content */
+
+
+
+
+
+
+
+
+
 
 /* #endregion main */

@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
-    <nav class="navbar bg-light sticky-top fixed_height py-0">
+     
+                          <!-- NAVBAR -->
+
+    <nav class="navbar bg-light position-sticky-top fixed_height py-0">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
@@ -25,22 +27,54 @@
         
       </nav>
 
-        <main>
-            <div class="row flex-column vertical_debug">
-                <div class="col">
+                       <!-- /NAVBAR -->
+
+
+                       <!-- MAIN -->
+
+        <main class="content_debug d-flex flex-row">
+
+                        <!--SIDEBAR  -->
+
+                <div class="row sidebar flex-column vertical_debug position-sticky-start m-end-2">
+                    <div class="col">
+                        
+                      
+                          
+                        </div>
+                    </div>
+                </div>   
+
+
+                                <!-- /SIDEBAR -->
+
+                                <!-- CONTENT -->
                    
-                   <!--  <nav class="nav flex-column bg-dark">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
-                        <a class="nav-link" href="#">Link</a>
-                        <a class="nav-link" href="#">Link</a>
-                        <a class="nav-link disabled">Disabled</a>
-                      </nav> -->
+           <!--      <section class="container content">
+                    <div class="row flex-column">
+                        <div class="col-12 my-0 content_col_debug top"></div>
+                        <div class="col-12 my-0 content_col_debug bottom"></div>
+                    </div>
+                </section> -->
+
+                <section class="top_content top_cont_debug">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col col_top_content_debug"></div>
+                        </div>
+                    </div>
+                </section>
                 
-                </div>
-            </div>
+                
+
+                                <!-- CONTENT -->
+
+
+            
         
         </main>
 
+                                    <!-- /MAIN -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
