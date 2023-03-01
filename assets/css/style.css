@@ -1,8 +1,12 @@
 /* #region utilities */
+:root{
+    
+}
 
 
-
-
+img{
+    width: 100%;
+}
 
 
 /* #endregion utilities */
@@ -11,9 +15,32 @@
 
 
 /* #region debug */
+.vertical_debug{
+    width: 60px;
+    height: calc(100vh - 60px);
+    border: 1px dotted black;
+    background-color: red;
 
+}
 
 
 
 
 /* #endregion debug */
+
+/* #region navbar */
+
+.fixed_height{
+    height: 60px;
+}
+
+
+/* #endregion navbar */
+
+/* #region main */
+
+main{
+    height: calc(100vh - 60px);
+}
+
+/* #endregion main */
