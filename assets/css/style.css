@@ -1,6 +1,6 @@
 /* #region utilities */
 :root{
-    
+    --light-white: #ffffff;
 }
 
 
@@ -26,21 +26,21 @@ img{
 .content_debug{
     background-color: blue;
     height: calc(100vh - 60px);
-    width: 100%;
+    
 
 }
 
 .top_cont_debug{
     background-color: chartreuse;
     height: 150px;
-    width: 100%;
-
+    width: 100vw;
+    
 }
 
 .bottom_cont_debug{
     background-color: black;
-    height: 100%;
-    width: 100%;
+    height: 300px;
+    width: 100vw;
 }
 
 
@@ -59,6 +59,10 @@ img{
 
 nav{
     width: 100vw;
+}
+
+.navbar_bg{
+    background-color: var(--light-white);
 }
 
 /* #endregion navbar */
