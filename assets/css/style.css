@@ -2,6 +2,7 @@
 :root{
     --light-white: #ffffff;
     --light-orange: #ff8f00;
+    --deep-blue: #051e34;
 }
 
 
@@ -16,13 +17,7 @@ img{
 
 
 /* #region debug */
-.vertical_debug{
-    
-    height: 100%;
-    border: 1px dotted black;
-    background-color: red;
 
-}
 
 .content_debug{
     background-color: blue;
@@ -67,7 +62,7 @@ nav{
 }
 
 .search_width{
-    width: 70%;
+    width: 60%;
 }
 
 .bell_color{
@@ -79,24 +74,36 @@ nav{
 
 /* #region main */
 
-main{
-    height: calc(100vh - 60px);
-    width: 100vw;
-}
+
 
 /* #region content */
 
 .sidebar{
     width: 60px;
+    height: calc(100vh - 60px);
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: var(--deep-blue);
+}
+
+.sidebar_lg{
+    width: 100px;
+    height: calc(100vh - 60px);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--deep-blue);
 }
 
 .content{
-    width: 100%;
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
 }
 
+.content.d-lg-inline-block{
+    width: calc(100vw - 150px);
+}
 
 
 /* #endregion content */
