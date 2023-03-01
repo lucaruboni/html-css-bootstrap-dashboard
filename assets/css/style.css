@@ -1,6 +1,7 @@
 /* #region utilities */
 :root{
     --light-white: #ffffff;
+    --light-orange: #ff8f00;
 }
 
 
@@ -65,6 +66,15 @@ nav{
     background-color: var(--light-white);
 }
 
+.search_width{
+    width: 70%;
+}
+
+.bell_color{
+    color: var(--light-orange);
+}
+
+
 /* #endregion navbar */
 
 /* #region main */
@@ -98,3 +108,13 @@ main{
 
 
 /* #endregion main */
+
+
+
+
+/* #region media-query */
+
+
+
+
+/* #endregion media-query */
