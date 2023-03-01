@@ -88,6 +88,9 @@ main{
 
 .sidebar{
     width: 60px;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content{
