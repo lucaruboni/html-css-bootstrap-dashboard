@@ -127,12 +127,10 @@ main{
 
 .banner{
     background-color: var(--banner-blue);
-    height: 208px;
-    
-
- 
-
+    height: 250px;
 }
+
+
 
 .icon_size{
     font-size: large;
@@ -189,6 +187,12 @@ main{
 
 
 /* #region media-query */
+
+@media screen and (min-width: 768px) {
+    .banner_md{
+        height: 200px;
+    }
+}
 
 @media screen and (min-width: 992px) {
     main{
