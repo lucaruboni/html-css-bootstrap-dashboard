@@ -105,6 +105,9 @@ main{
     overflow-y: auto;
 }
 
+.wrapper{
+    height: calc(100vh - 60px);
+}
 
 .sidebar{
     width: 60px;
