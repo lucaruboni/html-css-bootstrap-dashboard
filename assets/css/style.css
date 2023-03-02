@@ -38,6 +38,8 @@ img{
     line-height: 25px;
 }
 
+.
+
 /* #endregion utilities */
 
 
@@ -90,6 +92,7 @@ nav{
 .bell_color{
     color: var(--light-orange);
 }
+
 
 
 /* #endregion navbar */
@@ -172,6 +175,10 @@ main{
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     text-align: center;
+}
+
+.col_height{
+    height: 30%;
 }
 
 
