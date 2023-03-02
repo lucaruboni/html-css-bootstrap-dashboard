@@ -145,7 +145,7 @@ main{
     height: 192px;
     
 
-    
+ 
 
 }
 
@@ -162,10 +162,16 @@ main{
 }
 
 .breadcrumb_border{
-     border: 0.5px solid blue;
      border-radius: 40px;
      background-color: var(--bread_blue);
      padding: 0.4rem;
+}
+
+.badge_circle{
+    width: 25px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    text-align: center;
 }
 
 
