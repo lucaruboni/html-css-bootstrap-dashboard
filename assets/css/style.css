@@ -50,24 +50,7 @@ img{
 
 
 
-.top_cont_debug{
-    background-color: chartreuse;
-    height: 150px;
-    width: calc(100vw - 60px);
-    
-}
 
-.bottom_cont_debug{
-    background-color: black;
-    height: 300px;
-    width: calc(100vw - 60px);
-}
-
-
-.col_top_content_debug{
-    
-    border: 1px dotted black;
-}
 
 /* #endregion debug */
 
@@ -77,9 +60,7 @@ img{
     height: 60px;
 }
 
-nav{
-    width: 100vw;
-}
+
 
 .navbar_bg{
     background-color: var(--light-white);
@@ -182,6 +163,14 @@ main{
 }
 
 
+
+
+
+.off_widht{
+    width: 50vh;
+}
+
+
 /* #endregion content */
 
 
@@ -206,4 +195,4 @@ main{
     }
 }
 
-/* #endregion media-query */
+/* #endregion media-query */ 
