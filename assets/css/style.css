@@ -5,6 +5,7 @@
     --deep-blue: #051e34;
     --bread_blue: #165bba;
     --banner-blue: #1b72e8;
+    --hover-grey: #cfcfcf80;
 }
 
 
@@ -196,3 +197,31 @@ main{
 }
 
 /* #endregion media-query */ 
+
+/* #region effects */
+
+.top_sidebar> i:hover{
+    background-color: var(--hover-grey);
+    padding: 0.2rem;
+}
+
+.bottom_sidebar> i:hover{
+    background-color: var(--hover-grey);
+    padding: 0.2rem;
+}
+
+.top_sidebar> .text_container:hover{
+    background-color: var(--hover-grey);
+    padding: 0.3rem;
+}
+
+.bottom_sidebar> .text_container:hover{
+    background-color: var(--hover-grey);
+    padding: 0.2rem;
+}
+
+ul> li.hov_eff:hover{
+    background-color: var(--hover-grey);
+}
+
+/* #endregion effects */
